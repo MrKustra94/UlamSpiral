@@ -1,0 +1,19 @@
+[package]
+name = "ulam_spiral"
+version = "0.1.0"
+edition = "2021"
+authors = ["Marcin Kustra <mkustra1994@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "ulam"
+path = "src/lib.rs"
+edition = "2021"
+test = true
+
+[dependencies]
+anyhow = "~1.0.66"
+clap = { version = "~4.0.11", features = ["derive"] }
+image = "~0.24.4"
+thiserror = "~1.0.37"
